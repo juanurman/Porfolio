@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Sometype+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@200&display=swap');
+html *{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    /* font-family:'Raleway', sans-serif; */
+    /* font-family:'Sometype Mono', monospace;  */
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+
+/* Header */
+
+
+.lista{
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+    width: 15%;
+    position: fixed;
+    list-style-type: none;
+    box-sizing: border-box;
+    background-color: rgb(24, 24, 24);
+}
+.links{
+    color: white;
+    font-size: 1.5em;
+    transition: all .3s ease-in-out;
+    }
+.links:hover{
+    text-decoration: underline 2px;
+    font-size: 1.8em;
+}
+
+
+main{
+    background-color: rgb(80, 80, 80);
+    display: flex;
+    flex-direction: column;
+    
+}
+section{
+    position:relative;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+/* FIN HEADER */
+/* Sobre mi  */
+
+
+#id-section-sobre-mi{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin-left: 270px;
+
+}
+#id-sobre-mi{
+    display: block;
+    color: #fff;
+    position: relative;
+    text-align: left;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 960px;
+    font-size: x-large; 
+    margin-right: 50px;
+}
+.c-curriculum{
+    color: #fff;
+}
+#foto{
+    /* float: right;
+    align-items: end;
+    position: relative;
+    display: inline; */
+    height: 80%;
+    width: 80%;
+    border-radius: 100%;
+    /*margin-left: -50px;
+    margin-right: 10px; */
+
+}
+
+/* Tecnologias */
+
+
+#s-tecnologias{
+    position: relative;
+    display:block;
+    text-align: center;
+    background-color: #ececec;
+    padding: auto;
+    margin: 150px 450px;
+    border-radius: 30px;
+    margin-bottom: 300px;
+}
+#tecnologias{
+    display: contents;
+    
+}
+.c-tecnologias{
+    color: black;
+    padding: 5px;
+}
+.c-logos{
+    background-color: rgb(151, 149, 149);
+    padding: 10px;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+}
+.c-conjunto-de-logos{
+    padding: 10px;
+}
+
+/* Proyectos */
+#id-section-proyectos{
+    display: block;
+    text-align: center;
+    margin-left: 260px;
+}
+.c-h2-proyectos{
+    position:relative;
+    font-size: 2em;
+    color:rgb(255, 255, 255);
+    margin-bottom: 20px;
+    text-align: left;
+}
+.s-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+.c-foto-proyecto{
+    height: 300px;
+    width: 260px;
+    transition: all .3s ease-in-out;
+    border-radius: 10px;
+}
+.c-foto-proyecto:hover{
+    height: 330px;
+    width: 290px;
+}
+.c-h4-funkoshop{
+    color: #fff;
+    font-size: 1.5em;
+}
+/* Contacto */
+#Contacto{
+    display: block;
+    text-align: center;
+    position:static;
+    width: 700px;
+}
+.c-contacto{
+    color: #ffff;
+    position:static;
+    font-size: 1em;
+    padding: 10px;  
+    width: 83.9%;
+    margin-left: 280px;
+    margin-top: 350px;
+    text-align: left;
+}
+.github{
+    color: #ececec;
+}
+.Linkedin {
+    color: #ececec;
+}
+.h1-contactame{
+    font-size: 2em;
+    text-decoration: underline 2px;
+}
+.h2-contactame{
+    padding: 10px;
+}
+.div-github{
+    display: flex;
+}
+.div-linkedin{
+    display: flex;
+}
+hr{
+    max-width: 100%;
+    background-color: #fff;
+    height: 10px;
+    margin-bottom: 100px;
+}
