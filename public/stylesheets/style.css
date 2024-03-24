@@ -203,9 +203,6 @@ html *{
 .h1-educacion{
     text-decoration: underline 0.1vw;
 }
-.art-uni{
-    margin: 1vw 0;
-}
 .h2-uni{
     color: white;
     
@@ -213,9 +210,8 @@ html *{
 .p-uni{
     color: white;
 }
-.art-certi{
-    padding: 1vh 0;
-
+.art-cursos{
+    margin: 1.5vh 0;
 }
 .h2-cursos{
     color: white;
