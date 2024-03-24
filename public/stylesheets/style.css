@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Sometype+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@200&family=Tauri&display=swap');
 html *{
     text-decoration: none;
     padding: 0;
     margin: 0;
     /* font-family:'Raleway', sans-serif; */
     /* font-family:'Sometype Mono', monospace;  */
-    font-family: 'Libre Franklin', sans-serif;
+    /* font-family: 'Libre Franklin', sans-serif; */
+    font-family: "Tauri", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     
 }
 
@@ -15,21 +19,20 @@ html *{
 
 
 .lista{
-    position:absolute;
+    position: fixed;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
     height: 100vh;
     width: 15vw;
-    position: fixed;
     list-style-type: none;
     box-sizing: border-box;
-    background-color: rgb(149, 0, 102);
+    background-color: rgb(24, 24, 24);
     
 }
 .links{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 1.8em;
     transition: all .3s ease-in-out;
     }
@@ -37,13 +40,9 @@ html *{
     text-decoration: underline 2px;
     font-size: 2em;
 }
+/* FIN HEADER */
+ 
 
-
-main{
-    /* background-color: rgb(80, 80, 80); */
-    display: flex;
-    flex-direction: column;  
-}
 #background-video {
     width: 100vw;
     height: 100vh;
@@ -56,19 +55,11 @@ main{
     z-index: -1;
   }
 
-section{
-    position:relative;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-}
 
-/* FIN HEADER */
-/* Sobre mi  */
+/* TITULO */
 
 
-#id-section-sobre-mi{
+#titulo{
     padding-top: 100px;
     display: flex;
     flex-direction: row-reverse;
@@ -77,10 +68,10 @@ section{
 
 }
 
-#Id-sobre-mi-h1{
+#titulo-h1{
     display: inline;
 }
-#id-sobre-mi{
+#p-titulo{
     display: block;
     color: #fff;
     position: relative;
@@ -88,16 +79,29 @@ section{
     font-size:xx-large; 
 }
 .c-curriculum{
+    display: block;
+    width: 18vw;
+    background-color: rgb(0, 0, 172);
     color: #fff;
+    text-align: center;
+    border-radius: 20px;
+    font-size: x-large;
+}
+#c-p{
+    font-size: medium;
+    color:aqua;
+    padding: 1vh 1vh 1vh 0vh;
 }
 .c-c-foto{
     display: block;
-    width: 20vw;
-    text-align: center;
+    width: 50vw;
+    height: 50vh;
+    text-align: end;
 }
 #foto{
-    width: 60%;
-    border-radius: 500px;
+    width: 50%;
+    height: 50vh;
+    text-align: end;
 }
 
 /* Tecnologias */
@@ -106,24 +110,26 @@ section{
 #s-tecnologias{
     position: relative;
     display:block;
-    text-align: center;
-    background-color: #ececec;
-    padding: auto;
-    margin: 150px 450px;
-    border-radius: 30px;
-    margin-bottom: 300px;
+    margin-top: 10vw;
+    margin-bottom: 50vh;
+    
     
 }
 #tecnologias{
-    display: contents;
-    
+    display: block;
+    background-color: #d9d9d9;
+    width: 50vw;
+    border-radius: 30px;
+    text-align: center;
+    margin-left: 18vw;
 }
 .c-tecnologias{
     color: black;
     padding: 5px;
+
 }
 .c-logos{
-    background-color: rgb(151, 149, 149);
+    background-color: rgb(0, 0, 172);
     padding: 10px;
     border-radius: 10px;
     width: 50px;
@@ -148,24 +154,39 @@ section{
 }
 .s-cards{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: start;
     justify-content: space-between;
     margin-right: 10px;
 }
 
 .c-foto-proyecto{
-    height: 300px;
-    width: 260px;
+    height: 40vh;
+    width: 20vw;
     transition: all .3s ease-in-out;
     border-radius: 10px;
+    margin: 2vh;
 }
 .c-foto-proyecto:hover{
-    height: 330px;
-    width: 290px;
+    height: 42vh;
+    width: 22vw;
 }
 .c-h4-funkoshop{
     color: #fff;
     font-size: 1.5em;
+    text-align: start;
+}
+.c-funkoshop{
+    display: flex;
+    background-color: #2e2e2e;
+    border-radius: 10px;
+    width: 30vw;
+}
+.c-logos-proyecto-funkoshop{
+    display: flex;
+    flex-direction: column;    
+    justify-content: space-around;
+    align-items: center;
 }
 /* Contacto */
 #Contacto{
