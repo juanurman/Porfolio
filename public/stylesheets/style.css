@@ -213,6 +213,12 @@ html *{
 .p-uni{
     color: white;
 }
+.h2-cursos{
+    color: white;
+}
+.p-cursos{
+    color: white;
+}
 /* Contacto */
 #Contacto{
     display: flex;
