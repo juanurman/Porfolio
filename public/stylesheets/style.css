@@ -146,7 +146,7 @@ html *{
 #id-section-proyectos{
     display: block;
     text-align: center;
-    margin-left: 260px;
+    margin-left: 20vw;
 }
 .c-h2-proyectos{
     position:relative;
@@ -191,21 +191,40 @@ html *{
     justify-content: space-around;
     align-items: center;
 }
+/* SOBRE MI */
+#educacion{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    margin-left: 20vw;
+    
+}
+.h1-educacion{
+    color: white;
+    text-decoration: underline 0.1vw;
+}
+.art-uni{
+    margin: 1vw 0;
+}
+.h2-uni{
+    color: white;
+    
+}
+.p-uni{
+    color: white;
+}
 /* Contacto */
 #Contacto{
-    display: block;
-    text-align: center;
-    position:static;
-    width: 700px;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
 }
 .c-contacto{
     color: #ffff;
     position:static;
     font-size: 1em;
-    padding: 10px;  
-    width: 83.9%;
-    margin-left: 280px;
-    margin-top: 350px;
+    
+    margin-left: 20vw;
     text-align: left;
 }
 .github{
