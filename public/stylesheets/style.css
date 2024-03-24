@@ -38,9 +38,6 @@ html *{
     text-decoration: underline 2px;
     font-size: 2vw;
 }
-@media (){
-    
-}
 /* FIN HEADER */
  
 
@@ -96,7 +93,7 @@ html *{
 }
 #c-p{
     font-size: 1vw;
-    color:aqua;
+    color:rgb(0, 255, 255);
     padding: 1vh 1vh 1vh 0vh;
 }
 .c-c-foto{
@@ -107,7 +104,6 @@ html *{
     width: 40vw;
 }
 #foto{
-    width: 50%;
     height: 50vh;
 }
 
@@ -124,14 +120,14 @@ html *{
 }
 #tecnologias{
     display: block;
-    background-color: #d9d9d9;
+    background-color: #ffffff;
     width: 50vw;
     border-radius: 30px;
     text-align: center;
     margin-left: 18vw;
 }
 .c-tecnologias{
-    color: black;
+    color: rgb(0, 0, 0);
     padding: 5px;
 
 }
@@ -224,6 +220,7 @@ html *{
 }
 .h2-contactame{
     padding: 10px;
+    color: white;
 }
 .div-github{
     display: flex;
