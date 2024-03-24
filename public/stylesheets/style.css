@@ -162,6 +162,9 @@ html *{
     justify-content: space-between;
     margin-right: 10px;
 }
+.c-a-cards{
+    color: white;
+}
 
 .c-foto-proyecto{
     height: 40vh;
@@ -205,6 +208,7 @@ html *{
     text-decoration: underline 0.1vw;
 }
 .h2-uni{
+    margin-top: 2vh;
     color: white;
     
 }
@@ -212,7 +216,7 @@ html *{
     color: white;
 }
 .art-cursos{
-    margin: 2vh 0;
+    margin: 1vh 0;
 }
 .h2-cursos{
     color: white;
@@ -271,8 +275,8 @@ html *{
     margin: 1vh 0;
 }
 hr{
-    max-width: 100%;
+    max-width: 70vw;
     background-color: #fff;
-    height: 10px;
-    margin-bottom: 100px;
+    height: 0.2vh;
+    margin: 1vh 0;
 }
