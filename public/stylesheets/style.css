@@ -219,8 +219,13 @@ html *{
 .p-cursos{
     color: white;
 }
-.h2-certi{
-    
+.h2-certi{   
+
+}
+#br-educacion{
+    display: block;
+    color: white;
+    height: 0.5vh;
 }
 /* Contacto */
 #Contacto{
@@ -236,6 +241,12 @@ html *{
     margin-left: 20vw;
     text-align: left;
 }
+.mail{
+    display: inline;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
 .github{
     color: #ececec;
 }
@@ -246,10 +257,7 @@ html *{
     font-size: 2em;
     text-decoration: underline 2px;
 }
-.h2-contactame{
-    padding: 10px;
-    color: white;
-}
+
 .div-github{
     display: flex;
 }
