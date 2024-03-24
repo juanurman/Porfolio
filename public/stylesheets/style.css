@@ -197,10 +197,10 @@ html *{
     justify-content: start;
     flex-direction: column;
     margin-left: 20vw;
+    color: white;
     
 }
 .h1-educacion{
-    color: white;
     text-decoration: underline 0.1vw;
 }
 .art-uni{
@@ -213,11 +213,18 @@ html *{
 .p-uni{
     color: white;
 }
+.art-certi{
+    padding: 1vh 0;
+
+}
 .h2-cursos{
     color: white;
 }
 .p-cursos{
     color: white;
+}
+.h2-certi{
+    
 }
 /* Contacto */
 #Contacto{
