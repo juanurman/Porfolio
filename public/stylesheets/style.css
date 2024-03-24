@@ -16,8 +16,6 @@ html *{
 
 
 /* Header */
-
-
 .lista{
     position: fixed;
     display: flex;
@@ -39,6 +37,9 @@ html *{
 .links:hover{
     text-decoration: underline 2px;
     font-size: 2vw;
+}
+@media (){
+    
 }
 /* FIN HEADER */
  
