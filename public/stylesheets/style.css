@@ -21,30 +21,41 @@ html *{
     align-items: center;
     justify-content: space-evenly;
     height: 100vh;
-    width: 15%;
+    width: 15vw;
     position: fixed;
     list-style-type: none;
     box-sizing: border-box;
-    background-color: rgb(24, 24, 24);
+    background-color: rgb(149, 0, 102);
+    
 }
 .links{
-    color: white;
-    font-size: 1.5em;
+    color: rgb(0, 0, 0);
+    font-size: 1.8em;
     transition: all .3s ease-in-out;
     }
 .links:hover{
     text-decoration: underline 2px;
-    font-size: 1.8em;
+    font-size: 2em;
 }
 
 
 main{
-    background-color: rgb(80, 80, 80);
+    /* background-color: rgb(80, 80, 80); */
     display: flex;
-    flex-direction: column;
-    
-    
+    flex-direction: column;  
 }
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+
 section{
     position:relative;
     box-sizing: border-box;
@@ -62,34 +73,31 @@ section{
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
-    margin-left: 270px;
+    margin-left: 20vw;
 
+}
+
+#Id-sobre-mi-h1{
+    display: inline;
 }
 #id-sobre-mi{
     display: block;
     color: #fff;
     position: relative;
     text-align: left;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    max-width: 960px;
-    font-size: x-large; 
-    margin-right: 50px;
+    font-size:xx-large; 
 }
 .c-curriculum{
     color: #fff;
 }
+.c-c-foto{
+    display: block;
+    width: 20vw;
+    text-align: center;
+}
 #foto{
-    /* float: right;
-    align-items: end;
-    position: relative;
-    display: inline; */
-    height: 80%;
-    width: 80%;
-    border-radius: 30%;
-    /*margin-left: -50px;
-    margin-right: 10px; */
-
+    width: 60%;
+    border-radius: 500px;
 }
 
 /* Tecnologias */
@@ -104,6 +112,7 @@ section{
     margin: 150px 450px;
     border-radius: 30px;
     margin-bottom: 300px;
+    
 }
 #tecnologias{
     display: contents;

@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./public/stylesheets/style.css" rel="stylesheet" type="text/css">
-    <title>Document</title>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="index.js"></script>
+
+    <title>Porfolio</title>
 </head>
 <body>
     <header> <!-- Inicio header-->
@@ -20,6 +23,9 @@
         </nav>
     </header> <!-- Fin header-->
     <main>
+        <video id="background-video" autoplay loop muted poster="https://assets.codepen.io/6093409/river.jpg">
+            <source src="./public/Videos/lines_-_4760 (Original).mp4" type="video/mp4">
+          </video>
         <section id="id-section-sobre-mi"> <!-- Inicio sobre mi-->
             <div class="c-c-foto">
                 <Picture class="c-foto">
@@ -27,13 +33,9 @@
                 </Picture>
             </div>
             <div id="id-sobre-mi">
-                <h1 id="Id-sobre-mi-h1">Sobre mi</h1>
-                <p class="c-sobre-mi-p">Mi nombre es Juan Urman, tengo 19 años y soy estudiante de Ingeniería Informática en la Universidad de Buenos Aires.
-                    He realizado varios cursos formativos, pero tengo mucho entusiasmo por comenzar a tener experiencia laboral que me permita seguir aprendiendo en simultáneo a un desarrollo laboral</p>
-            <br>
-                <p class="c-sobre-mi-p">Secundario: Escuela Superior de Comercio Carlos Pellegrini</p>
-                <p class="c-sobre-mi-p">Universidad: Ingeniería informatica (En curso)</p>
-                <p class="c-sobre-mi-p">Cursos: Full Stack (Node JS)</p>
+                <h1 id="Id-sobre-mi-h1"></h1>
+                <p id="c-sobre-mi-p">Desarrollador Full Stack</p>
+                <br>
                 <a href="./public/images/Juan Urman CV.pdf" class="c-curriculum">Curriculum Vitae (CLICK)</a>
             </div>
         </section> <!-- Fin sobre mi-->
@@ -106,6 +108,22 @@
         </section> <!-- Fin contacto-->
     </main>
 
-    
+<script>
+
+    var typed = new Typed('#Id-sobre-mi-h1', {
+        strings: ['Juan Urman'],
+        typeSpeed: 150,
+        loop: true,
+      });
+    </script>
+    <script src="index.js"></script>
 </body>
+
+ <!-- <script>
+ var typed = new Typed('#Id-sobre-mi-h1', {
+    strings: ['Sobre Mi'],
+    typeSpeed: 150,
+    loop: true,
+  });
+  </script> -->
 </html>
