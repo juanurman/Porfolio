@@ -196,8 +196,9 @@ html *{
     display: flex;
     justify-content: start;
     flex-direction: column;
-    margin-left: 20vw;
+    /* margin-left: 20vw; */
     color: white;
+    margin: 20vh 0 20vh 20vw;
     
 }
 .h1-educacion{
@@ -211,7 +212,7 @@ html *{
     color: white;
 }
 .art-cursos{
-    margin: 1.5vh 0;
+    margin: 2vh 0;
 }
 .h2-cursos{
     color: white;
@@ -222,16 +223,14 @@ html *{
 .h2-certi{   
 
 }
-#br-educacion{
-    display: block;
-    color: white;
-    height: 0.5vh;
-}
+
 /* Contacto */
 #Contacto{
     display: flex;
     justify-content: start;
     flex-direction: column;
+    margin-bottom: 10vh;
+    
 }
 .c-contacto{
     color: #ffff;
@@ -242,26 +241,34 @@ html *{
 }
 .mail{
     display: inline;
-    padding: 10px;
+    padding: 1vw 0;
     color: white;
     text-decoration: none;
 }
 .github{
     color: #ececec;
+
 }
 .Linkedin {
     color: #ececec;
+    display: flex;
 }
 .h1-contactame{
     font-size: 2em;
     text-decoration: underline 2px;
 }
-
+.h2-contactame{
+    display: flex;
+    align-items: center;
+    margin: 0 1vw;
+}
 .div-github{
     display: flex;
+    margin: 1vh 0;
 }
 .div-linkedin{
     display: flex;
+    margin: 1vh 0;
 }
 hr{
     max-width: 100%;
