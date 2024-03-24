@@ -33,12 +33,12 @@ html *{
 }
 .links{
     color: rgb(255, 255, 255);
-    font-size: 1.8em;
+    font-size: 1.8vw;
     transition: all .3s ease-in-out;
     }
 .links:hover{
     text-decoration: underline 2px;
-    font-size: 2em;
+    font-size: 2vw;
 }
 /* FIN HEADER */
  
