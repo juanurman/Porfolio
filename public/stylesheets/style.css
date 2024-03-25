@@ -131,7 +131,8 @@ html *{
 }
 .c-tecnologias{
     color: rgb(255, 255, 255);
-    padding: 0.01vw;
+    padding: .5vw;
+    font-size: 1.5vw;
 
 }
 .c-logos{
@@ -153,7 +154,7 @@ html *{
 }
 .c-h2-proyectos{
     position:relative;
-    font-size: 2em;
+    font-size: 4vw;
     color:rgb(255, 255, 255);
     margin-bottom: 3vh;
     text-align: left;
@@ -181,8 +182,10 @@ html *{
 }
 .c-h4-funkoshop{
     color: #ffffff;
-    font-size: 1.5em;
+    font-size: 3vw;
     text-align: start;
+    margin-left: .3vw;
+    
 }
 .c-funkoshop{
     display: flex;
@@ -246,7 +249,7 @@ html *{
 .c-contacto{
     color: #ffff;
     position:static;
-    font-size: 1em;
+    font-size: 2vh;
     margin-left: 20vw;
     text-align: left;
 }
@@ -256,8 +259,13 @@ html *{
     color: white;
     text-decoration: none;
 }
+.c-img-cont{
+    width: 4vw;
+    height: 4vw;
+}
 .github{
     color: #ececec;
+    height: vw;
 
 }
 .Linkedin {
@@ -288,6 +296,7 @@ hr{
     margin: 1vh 0;
 }
 .tec-pag{
+    font-size: 2vh;
     margin-left: 20vw;
     color: white;
 }
