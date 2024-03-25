@@ -121,10 +121,10 @@ html *{
 #tecnologias{
     display: block;
     background-color: #ffffff;
-    width: 50vw;
+    width: 40vw;
     border-radius: 30px;
     text-align: center;
-    margin-left: 18vw;
+    margin-left: 20vw;
 }
 .c-tecnologias{
     color: rgb(0, 0, 0);
@@ -279,4 +279,8 @@ hr{
     background-color: #fff;
     height: 0.2vh;
     margin: 1vh 0;
+}
+.tec-pag{
+    margin-left: 20vw;
+    color: white;
 }
