@@ -1,68 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./public/stylesheets/style.css" rel="stylesheet" type="text/css">
-    <title>Document</title>
-</head>
-<body>
-    <header> <!-- Inicio header-->
-        <nav>
-            <div clas="header">
-                <ul class="lista">
-                    <li><a href="#" class="links" id="Juan-Urman" >Juan Urman</a></li>
-                    <li><a href="#id-section-sobre-mi" class="links"id="Sobre-mi">Sobre mí</a></li>
-                    <li><a href="#id-section-proyectos" class="links"id="Mis-Proyectos">Mis proyectos</a></li>
-                    <li><a href="#Contacto" class="links" id="Contacto-id">Contacto</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header> <!-- Fin header-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="./public/stylesheets/style.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="index.js"></script>
+
+    <title>Porfolio</title>
+  </head>
+  <body>
+    <!-- Inicio header-->
+    <header>
+      <nav>
+        <div clas="header">
+          <ul class="lista">
+            <li><a href="#titulo" class="links" id="Juan-Urman">Juan Urman</a></li>
+            <li>
+              <a href="#id-section-sobre-mi" class="links" id="Sobre-mi"
+                >Sobre mí</a
+              >
+            </li>
+            <li>
+              <a href="#id-section-proyectos" class="links" id="Mis-Proyectos"
+                >Mis proyectos</a
+              >
+            </li>
+            <li>
+              <a href="#Contacto" class="links" id="Contacto-id">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- Fin header-->
     <main>
-        <section id="id-section-sobre-mi"> <!-- Inicio sobre mi-->
-            <div class="c-c-foto">
-                <Picture class="c-foto">
-                    <img src="./public/images/Foto_CV.jpeg" alt="" id="foto">
-                </Picture>
-            </div>
-            <div id="id-sobre-mi">
-                <h1 id="Id-sobre-mi-h1">Sobre mi</h1>
-                <p class="c-sobre-mi-p">Mi nombre es Juan Urman, tengo 19 años y soy estudiante de Ingeniería Informática en la Universidad de Buenos Aires.
-                    He realizado varios cursos formativos, pero tengo mucho entusiasmo por comenzar a tener experiencia laboral que me permita seguir aprendiendo en simultáneo a un desarrollo laboral</p>
-            <br>
-                <p class="c-sobre-mi-p">Secundario: Escuela Superior de Comercio Carlos Pellegrini</p>
-                <p class="c-sobre-mi-p">Universidad: Ingeniería informatica (En curso)</p>
-                <p class="c-sobre-mi-p">Cursos: Full Stack (Node JS)</p>
-                <a href="./public/images/Juan Urman CV.pdf" class="c-curriculum">Curriculum Vitae (CLICK)</a>
-            </div>
-        </section> <!-- Fin sobre mi-->
-        <section  id="s-tecnologias"> <!-- Inicio tecnologias -->
-            <div id="tecnologias">
-                <h3 class="c-tecnologias">PRINCIPALES TECNOLOGÍAS</h3> 
-                <div class="c-conjunto-de-logos">
-                    <img src="./public/images/Logos/icons8-python-48.png" alt="Logo de python" class="c-logos">
-                    <img src="./public/images/Logos/icons8-javascript-48.png" alt="Logo de js" class="c-logos">
-                    <img src="./public/images/Logos/icons8-html-5-48.png" alt="Logo de html"  class="c-logos">
-                    <img src="./public/images/Logos/icons8-css3-48.png" alt="Logo de css" class="c-logos">
-                    <img src="./public/images/Logos/icons8-nodejs-48.png" alt="Logo de nodejs" class="c-logos">
-                    <img src="./public/images/Logos/icons8-mysql-50.png" alt="Logo de Mysql" class="c-logos">
-                    <img src="./public/images/Logos/icons8-amazon-web-services-32.png" alt="Logo de AWS" class="c-logos">
-                </div>
-            </div>
-        </section>  <!-- Fin tecnologias-->
-        <section id="id-section-proyectos"> <!--Inicio Proyectos-->
-            <div class="c-h2-proyectos"> 
-                <h2>Proyectos</h2>
-            </div>
-            <section class="s-cards">
-                <div class="c-cards">
-                    <div class="c-funkoshop">
-                        <h4 class="c-h4-funkoshop">Funko Shop</h4>
-                        
-                        <a href="https://github.com/juanurman/FunkoShop" class="c-a-cards">
-                        <card class="cartas" ><img src="./public/images/proyectos/Proyecto_FunkoShop/Home-1.png" alt="proyecto1" class="c-foto-proyecto"></card>
-                        </a>
+        <!-- VIDEO -->
+      <video
+        id="background-video"
+        autoplay
+        loop
+        muted
+        poster="./public/Videos/Negro.png"
+      >
+        <source
+          src="./public/Videos/lineas.mp4"
+          type="video/mp4"/>
+      </video>
+      <!-- Titulo-->
+      <section id="titulo">
+        <div class="c-c-foto">
+          <picture class="c-foto">
+            <img src="./public/images/avatar2.png" alt="" id="foto" />
+          </picture>
+        </div>
+        <article id="p-titulo">
+            <h1 id="titulo-h1"></h1>
+            <p id="c-p">Desarrollador Full Stack Trainee</p>
+            <a href="./public/images/Juan Urman CV.pdf" class="c-curriculum">Descargar CV</a>
+        </article>
+      </section>
+      <!-- Titulo-->
+      <!-- Inicio tecnologias -->
+      <section id="s-tecnologias">
+        <article id="tecnologias">
+          <h3 class="c-tecnologias">PRINCIPALES TECNOLOGÍAS</h3>
+          <div class="c-conjunto-de-logos">
+            <img
+              src="./public/images/Logos/icons8-python-48.png"
+              alt="Logo de python"
+              class="c-logos"
+            />
+            <img
+              src="./public/images/Logos/icons8-javascript-48.png"
+              alt="Logo de js"
+              class="c-logos"
+            />
+            <img
+              src="./public/images/Logos/icons8-html-5-48.png"
+              alt="Logo de html"
+              class="c-logos"
+            />
+            <img
+              src="./public/images/Logos/icons8-css3-48.png"
+              alt="Logo de css"
+              class="c-logos"
+            />
+            <img
+              src="./public/images/Logos/icons8-nodejs-48.png"
+              alt="Logo de nodejs"
+              class="c-logos"
+            />
+            <img
+              src="./public/images/Logos/icons8-mysql-50.png"
+              alt="Logo de Mysql"
+              class="c-logos"
+            />
+            <img
+              src="./public/images/Logos/icons8-amazon-web-services-32.png"
+              alt="Logo de AWS"
+              class="c-logos"
+            />
+          </div>
+        </article>
+      </section>
+      <!-- Fin tecnologias-->
+      <!--Inicio Proyectos-->
+      <section id="id-section-proyectos">
+        <div class="c-h2-proyectos">
+          <h2>Proyectos</h2>
+        </div>
+        <section class="s-cards">
+          <div class="c-cards">
+            <h4 class="c-h4-funkoshop">Funko Shop</h4>
+            <div class="c-funkoshop">
+
+              <a
+                href="https://github.com/juanurman/FunkoShop"
+                class="c-a-cards"
+              >
+                <card class="cartas"
+                  ><img
+                    src="./public/images/proyectos/Proyecto_FunkoShop/Home-1.png"
+                    alt="proyecto1"
+                    class="c-foto-proyecto"
+                /></card>
+              </a>
 
                         <div class="c-logos-proyecto-funkoshop">
                             <img src="./public/images/" alt="">
@@ -100,12 +167,19 @@
             <div class="div-linkedin">
             <img src="./public/images/Logos/icons8-linkedin-50.png" alt=""><h2 class="h2-contactame"><a href="https://www.linkedin.com/in/juanurman" class="Linkedin">Linkedin</a></h2>
             </div>
-            <h2 class="h2-contactame">Teléfono: +54 9 11-5970-7789</h2>
+            <h2 class="h2-contactame">Teléfono: +54 9 11-5970-77890</h2>
             <!-- <h2 class="h2-contactame">Instagram: juan_urman</h2>   -->
         </div>
-        </section> <!-- Fin contacto-->
+      </section>
+      <!-- Fin contacto-->
     </main>
 
-    
-</body>
+    <script>
+      var typed = new Typed("#titulo-h1", {
+        strings: ["Juan Urman"],
+        typeSpeed: 150,
+        loop: true,
+      });
+    </script>
+  </body>
 </html>

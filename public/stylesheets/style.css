@@ -1,95 +1,110 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Sometype+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@200&family=Tauri&display=swap');
 html *{
     text-decoration: none;
     padding: 0;
     margin: 0;
     /* font-family:'Raleway', sans-serif; */
     /* font-family:'Sometype Mono', monospace;  */
-    font-family: 'Libre Franklin', sans-serif;
+    /* font-family: 'Libre Franklin', sans-serif; */
+    font-family: "Tauri", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     
 }
 
 
 /* Header */
-
-
 .lista{
-    position:absolute;
+    position: fixed;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
     height: 100vh;
-    width: 15%;
-    position: fixed;
+    width: 15vw;
     list-style-type: none;
     box-sizing: border-box;
     background-color: rgb(24, 24, 24);
+    
 }
 .links{
-    color: white;
-    font-size: 1.5em;
+    color: rgb(255, 255, 255);
+    font-size: 1.8vw;
     transition: all .3s ease-in-out;
     }
 .links:hover{
     text-decoration: underline 2px;
-    font-size: 1.8em;
+    font-size: 2vw;
 }
-
-
-main{
-    background-color: rgb(80, 80, 80);
-    display: flex;
-    flex-direction: column;
-    
-    
-}
-section{
-    position:relative;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-}
-
 /* FIN HEADER */
-/* Sobre mi  */
+ 
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
 
 
-#id-section-sobre-mi{
+/* TITULO */
+
+
+#titulo{
     padding-top: 100px;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
-    margin-left: 270px;
+    align-items: center;
+    margin-left: 20vw;
+    margin-bottom: 18vh;
+    height: 70vh;
+
 
 }
-#id-sobre-mi{
-    display: block;
-    color: #fff;
-    position: relative;
-    text-align: left;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    max-width: 960px;
-    font-size: x-large; 
-    margin-right: 50px;
+#p-titulo{
+    /* margin-top: 18vh; */
+    color: #fff;  
+}
+#titulo-h1{
+    display: inline;
+    font-size: 3.5vw;
+}
+.typed-cursor{
+    /* color: black; */
 }
 .c-curriculum{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18vw;
+    height:  2.5vw;
+    background-color: rgb(0, 0, 172);
     color: #fff;
+    border-radius: 20px;
+    font-size: 1.6vw;
+}
+#c-p{
+    font-size: 1vw;
+    color:rgb(0, 255, 255);
+    padding: 1vh 1vh 1vh 0vh;
+}
+.c-c-foto{
+    display: inline;
+    width: 50vw;
+    height: 50vh;
+    text-align: end;
+    width: 40vw;
 }
 #foto{
-    /* float: right;
-    align-items: end;
-    position: relative;
-    display: inline; */
-    height: 80%;
-    width: 80%;
-    border-radius: 30%;
-    /*margin-left: -50px;
-    margin-right: 10px; */
-
+    height: 50vh;
 }
 
 /* Tecnologias */
@@ -98,23 +113,26 @@ section{
 #s-tecnologias{
     position: relative;
     display:block;
-    text-align: center;
-    background-color: #ececec;
-    padding: auto;
-    margin: 150px 450px;
-    border-radius: 30px;
-    margin-bottom: 300px;
-}
-#tecnologias{
-    display: contents;
+    /* margin-top: 23vw; */
+    margin-bottom: 20vh;
+    
     
 }
+#tecnologias{
+    display: block;
+    background-color: #ffffff;
+    width: 50vw;
+    border-radius: 30px;
+    text-align: center;
+    margin-left: 18vw;
+}
 .c-tecnologias{
-    color: black;
+    color: rgb(0, 0, 0);
     padding: 5px;
+
 }
 .c-logos{
-    background-color: rgb(151, 149, 149);
+    background-color: rgb(0, 0, 172);
     padding: 10px;
     border-radius: 10px;
     width: 50px;
@@ -128,7 +146,7 @@ section{
 #id-section-proyectos{
     display: block;
     text-align: center;
-    margin-left: 260px;
+    margin-left: 20vw;
 }
 .c-h2-proyectos{
     position:relative;
@@ -139,64 +157,126 @@ section{
 }
 .s-cards{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: start;
     justify-content: space-between;
     margin-right: 10px;
 }
+.c-a-cards{
+    color: white;
+}
 
 .c-foto-proyecto{
-    height: 300px;
-    width: 260px;
+    height: 40vh;
+    width: 20vw;
     transition: all .3s ease-in-out;
     border-radius: 10px;
+    margin: 2vh;
 }
 .c-foto-proyecto:hover{
-    height: 330px;
-    width: 290px;
+    height: 42vh;
+    width: 22vw;
 }
 .c-h4-funkoshop{
     color: #fff;
     font-size: 1.5em;
+    text-align: start;
 }
+.c-funkoshop{
+    display: flex;
+    background-color: #2e2e2e;
+    border-radius: 10px;
+    width: 27vw;
+}
+.c-logos-proyecto-funkoshop{
+    display: flex;
+    flex-direction: column;    
+    justify-content: space-around;
+    align-items: center;
+}
+/* SOBRE MI */
+#educacion{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    /* margin-left: 20vw; */
+    color: white;
+    margin: 20vh 0 20vh 20vw;
+    
+}
+.h1-educacion{
+    text-decoration: underline 0.1vw;
+}
+.h2-uni{
+    margin-top: 2vh;
+    color: white;
+    
+}
+.p-uni{
+    color: white;
+}
+.art-cursos{
+    margin: 1vh 0;
+}
+.h2-cursos{
+    color: white;
+}
+.p-cursos{
+    color: white;
+}
+.h2-certi{   
+
+}
+
 /* Contacto */
 #Contacto{
-    display: block;
-    text-align: center;
-    position:static;
-    width: 700px;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    margin-bottom: 10vh;
+    
 }
 .c-contacto{
     color: #ffff;
     position:static;
     font-size: 1em;
-    padding: 10px;  
-    width: 83.9%;
-    margin-left: 280px;
-    margin-top: 350px;
+    margin-left: 20vw;
     text-align: left;
+}
+.mail{
+    display: inline;
+    padding: 1vw 0;
+    color: white;
+    text-decoration: none;
 }
 .github{
     color: #ececec;
+
 }
 .Linkedin {
     color: #ececec;
+    display: flex;
 }
 .h1-contactame{
     font-size: 2em;
     text-decoration: underline 2px;
 }
 .h2-contactame{
-    padding: 10px;
+    display: flex;
+    align-items: center;
+    margin: 0 1vw;
 }
 .div-github{
     display: flex;
+    margin: 1vh 0;
 }
 .div-linkedin{
     display: flex;
+    margin: 1vh 0;
 }
 hr{
-    max-width: 100%;
+    max-width: 70vw;
     background-color: #fff;
-    height: 10px;
-    margin-bottom: 100px;
+    height: 0.2vh;
+    margin: 1vh 0;
 }
