@@ -178,15 +178,15 @@ html *{
     width: 22vw;
 }
 .c-h4-funkoshop{
-    color: #fff;
+    color: #000000;
     font-size: 1.5em;
     text-align: start;
 }
 .c-funkoshop{
     display: flex;
-    background-color: #2e2e2e;
+    /* background-color: #2e2e2e;
     border-radius: 10px;
-    width: 27vw;
+    width: 27vw; */
 }
 .c-logos-proyecto-funkoshop{
     display: flex;
