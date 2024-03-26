@@ -136,7 +136,7 @@ html *{
 
 }
 .c-logos{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(223, 223, 223);
     padding: 1vw;
     border-radius: 10px;
     width: 3vw;
@@ -154,7 +154,7 @@ html *{
 }
 .c-h2-proyectos{
     position:relative;
-    font-size: 4vw;
+    font-size: 2vw;
     color:rgb(255, 255, 255);
     margin-bottom: 3vh;
     text-align: left;
@@ -182,7 +182,7 @@ html *{
 }
 .c-h4-funkoshop{
     color: #ffffff;
-    font-size: 3vw;
+    font-size: 1.3vw;
     text-align: start;
     margin-left: .3vw;
     
@@ -244,14 +244,7 @@ html *{
     justify-content: start;
     flex-direction: column;
     margin-bottom: 10vh;
-    
-}
-.c-contacto{
-    color: #ffff;
-    position:static;
-    font-size: 2vh;
-    margin-left: 20vw;
-    text-align: left;
+    margin-left: 20vw; 
 }
 .mail{
     display: inline;
@@ -263,6 +256,10 @@ html *{
     width: 4vw;
     height: 4vw;
 }
+.phone{
+    margin-top: 1vh;
+    color:white;
+}
 .github{
     color: #ececec;
     height: vw;
@@ -273,8 +270,10 @@ html *{
     display: flex;
 }
 .h1-contactame{
-    font-size: 2em;
+    font-size: 3em;
     text-decoration: underline 2px;
+    color: white;
+    margin-bottom: 3vh;
 }
 .h2-contactame{
     display: flex;
