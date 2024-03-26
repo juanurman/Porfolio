@@ -187,8 +187,11 @@ html *{
     margin-left: .3vw;
     
 }
-.c-funkoshop{
+.cartas{
     display: flex;
+}
+.c-funkoshop{
+    /* display: flex; */
     /* background-color: #2e2e2e;
     border-radius: 10px;
     width: 27vw; */
