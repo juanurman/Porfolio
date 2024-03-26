@@ -120,7 +120,7 @@ html *{
     
     
 }
-#tecnologias{
+.tecnologias{
     display: block;
     background-color: #242424;
     width: 40vw;
