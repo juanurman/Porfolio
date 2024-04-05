@@ -243,18 +243,23 @@ html *{
     margin-bottom: 10vh;
     margin-left: 20vw; 
 }
+
+.c-contacto{
+    padding: 0.1vh;
+}
+
 .mail{
     display: inline;
-    padding: 1vw 0;
+    margin: 1vh 0 2vh 0;
     color: white;
     text-decoration: none;
 }
 .c-img-cont{
-    width: 4vw;
-    height: 4vw;
+    width: 3.5vw;
+    height: 3.5vw;
 }
 .phone{
-    margin-top: 1vh;
+    margin-top: 2vh;
     color:white;
 }
 .github{
@@ -267,7 +272,7 @@ html *{
     display: flex;
 }
 .h1-contactame{
-    font-size: 3em;
+    font-size: 2.5em;
     text-decoration: underline 2px;
     color: white;
     margin-bottom: 3vh;
