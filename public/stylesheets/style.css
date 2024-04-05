@@ -43,11 +43,13 @@ html *{
     .lista{ 
         height: 111vh;
     }
+    .links{
+        font-size: 2vw;
+    }
     main{
         width: 88vw;
     }
 }
-
 #background-video {
     width: 100vw;
     height: 100vh;
@@ -95,7 +97,7 @@ html *{
     border-radius: 20px;
     font-size: 1.6vw;
 }
-#c-p{
+.c-p{
     font-size: 1vw;
     color:rgb(0, 255, 255);
     padding: 1vh 1vh 1vh 0vh;
@@ -113,16 +115,28 @@ html *{
 .c-años{
     font-size: 1vw;
 }
-.c-p{
-    font-size: 1vw;
-}
 @media only screen and (max-width: 426px){
     #foto{
         width: 30vw;
         height: 30vh;
         margin-top: 7vh;
     }
+    #titulo-h1{
+        font-size: 4.5vw;
+    }
+    .c-p, .c-años{
+        font-size: 1.8vw;
+    }
 }
+@media only screen and (max-width: 321px){
+
+    #foto{
+        width:vw;
+        height: 25vh;
+        /* margin-top: 7vh; */
+    }
+}
+
 /* Tecnologias */
 
 
@@ -268,11 +282,11 @@ html *{
 }
 
 @media only screen and (max-width: 426px){
-    .h2-uni, .h2-certi, .h2-certi{
-        font-size: 3vw;
+    .h2-uni, .h2-cursos, .h2-certi{
+        font-size: 4vw;
     }
     .p-uni, .p-cursos, .p-certi{
-        font-size: 1.5vw;
+        font-size: 3vw;
     }
     
 }
@@ -337,10 +351,10 @@ html *{
 
 @media only screen and (max-width: 426px){
     .mail, .phone, .github, .Linkedin{
-        font-size: 2vw;
+        font-size: 4vw;
     }
     .h1-contactame{
-        font-size: 3.5vw;
+        font-size: 6vw;
     }
 }
 
@@ -351,7 +365,7 @@ hr{
     margin: 1vh 0;
 }
 .tec-pag{
-    font-size: 2vh;
+    font-size: 2vw;
     margin-left: 20vw;
     color: white;
 }
