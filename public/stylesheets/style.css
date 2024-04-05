@@ -41,7 +41,7 @@ html *{
 /* FIN HEADER */
 @media only screen and (max-width: 426px){
     .lista{ 
-        height: 111vh;
+        height: 110vh;
     }
     .links{
         font-size: 2vw;
